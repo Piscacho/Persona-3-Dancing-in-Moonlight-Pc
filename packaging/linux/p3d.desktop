@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Persona 3: Dancing in Moonlight
+Comment=PC port of Persona 3: Dancing in Moonlight (bring your own game dump)
+Exec=AppRun
+Icon=p3d
+Categories=Game;
+Terminal=false
+StartupWMClass=p3d
