@@ -20,3 +20,4 @@ perf.data
 mods.json
 patches.json
 !launcher/p3d.png
+!launcher/logo.png

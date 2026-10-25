@@ -43,7 +43,7 @@ rm -rf -- out/stage
 mkdir -p "$dest/bin" "$dest/launcher"
 cp -r "out/pyi-dist/Persona 3 Dancing/." "$dest/"
 llvm-strip -o "$dest/Play Persona 3 Dancing.exe" out/p3d-play.exe
-cp launcher/p3d.ico launcher/p3d.png "$dest/launcher/"
+cp launcher/p3d.ico launcher/p3d.png launcher/brand.ttf launcher/brand-OFL.txt launcher/logo.png "$dest/launcher/"
 # The executables without debug information (out/ keeps the symbols for crash reports).
 for exe in p3d-probe.exe p3d-gpu-capabilities.exe; do
     llvm-strip --strip-debug -o "$dest/bin/$exe" "out/$exe"

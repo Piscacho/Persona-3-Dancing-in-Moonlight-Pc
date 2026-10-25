@@ -42,6 +42,9 @@ int p3dgpu_vibration_percent(void);
 void p3dgpu_movie_picture(void);
 /* The pause key (touchpad right) was pressed: it lets go of the mouse lock, or takes it back. */
 void p3dgpu_mouse_pause_key(void);
+/* A trophy was unlocked (src/runtime_services.c): the overlay shows its notice with the icon
+ * TROP<id>.PNG from P3D_TROPHY_ICONS. grade: 'p' platinum, 'g' gold, 's' silver, 'b' bronze. */
+void p3dgpu_trophy_unlocked(int id, char grade, const char *name);
 /* Number of symbols registered by the vendored libraries (diagnostics). */
 unsigned p3dgpu_symbol_count(void);
 #ifdef __cplusplus
