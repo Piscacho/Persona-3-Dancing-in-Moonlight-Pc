@@ -10,7 +10,7 @@ Port para PC de **Persona 3: Dancing in Moonlight** (PlayStation 4, CUSA12636) p
 ## Descargar y jugar
 
 1. Descarga el `.zip` desde la página de
-   [Releases](https://github.com/Piscacho/Persona-3-Dancing-in-Moonlight/releases/latest)
+   [Releases](https://github.com/Piscacho/Persona-3-Dancing-in-Moonlight-Pc/releases/latest)
    y descomprímelo en una carpeta, por ejemplo `C:\Juegos\Persona 3 Dancing`.
 2. Pon la carpeta del juego junto a ella como `juego\CUSA12636` (se detecta sola), o elígela en
    el launcher: **Game → Carpeta del juego**.

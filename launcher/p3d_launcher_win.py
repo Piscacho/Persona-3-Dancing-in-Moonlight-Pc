@@ -65,8 +65,8 @@ UI_FONT, MONO_FONT, SERIF_FONT = 'Segoe UI', 'Consolas', 'Georgia'
 VERSION = '1.1.0'
 # The launcher checks this repository's releases (their .zip) for a newer version.
 UPDATES = True
-RELEASES_API = 'https://api.github.com/repos/Piscacho/Persona-3-Dancing-in-Moonlight/releases/latest'
-RELEASES_PAGE = 'https://github.com/Piscacho/Persona-3-Dancing-in-Moonlight/releases/latest'
+RELEASES_API = 'https://api.github.com/repos/Piscacho/Persona-3-Dancing-in-Moonlight-Pc/releases/latest'
+RELEASES_PAGE = 'https://github.com/Piscacho/Persona-3-Dancing-in-Moonlight-Pc/releases/latest'
 UPDATE_DIR = Path(tempfile.gettempdir()) / 'p3d-update'
 # Never copied over an installation by an update (the package does not hold them either).
 USER_FILES = ('user', 'out', 'mods', 'dlc', 'p3d.ini', 'mods.json', 'mods_presets.json', 'patches.json', 'last_run.log')
